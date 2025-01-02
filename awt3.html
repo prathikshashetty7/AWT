@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-4">
+    <header class="text-center bg-blue-500 text-white py-4">
+        <h1 class="text-3xl font-bold">Tailwind CSS Example</h1>
+    </header>
+    
+    <main class="container mx-auto mt-6">
+        <!-- Flexbox and Grid -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-green-200 p-4 rounded shadow">
+                <h2 class="text-xl font-semibold">Flexbox Example</h2>
+                <div class="flex justify-around mt-2">
+                    <div class="bg-blue-400 text-white p-2 rounded">Box 1</div>
+                    <div class="bg-red-400 text-white p-2 rounded">Box 2</div>
+                    <div class="bg-yellow-400 text-white p-2 rounded">Box 3</div>
+                </div>
+            </div>
+            <div class="bg-yellow-200 p-4 rounded shadow">
+                <h2 class="text-xl font-semibold">Grid Example</h2>
+                <div class="grid grid-cols-3 gap-2 mt-2">
+                    <div class="bg-pink-400 text-white p-2 rounded">1</div>
+                    <div class="bg-purple-400 text-white p-2 rounded">2</div>
+                    <div class="bg-teal-400 text-white p-2 rounded">3</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Padding and Margins -->
+        <section class="mt-8">
+            <h2 class="text-2xl font-semibold mb-4">Padding and Margins</h2>
+            <div class="bg-gray-300 p-6 mb-4">This box has padding</div>
+            <div class="bg-gray-400 m-6">This box has margin</div>
+        </section>
+
+        <!-- Typography -->
+        <section class="mt-8">
+            <h2 class="text-2xl font-semibold mb-4">Typography</h2>
+            <p class="text-lg text-gray-700">Tailwind makes styling text simple with utility classes.</p>
+        </section>
+    </main>
+
+    <footer class="text-center bg-gray-800 text-white py-4 mt-8">
+        <p>Created with Tailwind CSS</p>
+    </footer>
+</body>
+</html>
